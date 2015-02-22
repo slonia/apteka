@@ -75,6 +75,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.1)
     equalizer (0.0.9)
     erubis (2.7.0)
+    execjs (2.3.0)
     globalid (0.3.3)
       activesupport (>= 4.1.0)
     grape (0.10.1)
@@ -169,6 +170,9 @@ GEM
     tilt (1.4.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    uglifier (2.7.0)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
     unicorn (4.8.3)
       kgio (~> 2.6)
       rack
@@ -198,5 +202,6 @@ DEPENDENCIES
   grape-swagger-rails
   pg
   rails (= 4.2.0)
+  uglifier (>= 1.3.0)
   unicorn
   web-console (~> 2.0)
